@@ -113,23 +113,6 @@ import Control.Monad.State
 import Data.Generics.Aliases
 import Data.Char
 
-
-
-
-data Event = Event { eventId :: Maybe Integer
-                   , eventScope :: Maybe Bool
-                   , eventTitle :: Maybe String
-                   , eventLayout :: Maybe Layout
-                   }
- deriving (Data,Typeable,Show)
-
-data Home = Home
-  deriving (Data,Typeable,Show)
-  
-data Layout =
-  Wide | Thin | Collapsed
-  deriving (Typeable,Data,Show)
-
 -- | Simple maybe alias.
 type Parse a = Maybe a
 
