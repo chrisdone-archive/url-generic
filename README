@@ -1,0 +1,6 @@
+The purpose of this package is to associate web pages each with a
+data type that contains all the necessary parameters for that page,
+by automatically deriving that representation from the data types
+themselves. It is an experimental package to test the idea.
+
+See the module documentation for more details, and examples.
